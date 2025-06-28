@@ -16,7 +16,7 @@ copy:
 
 git-commit:
 	git add .
-	git commit -a -m `date +%Y%m%dT%H%M%SZ`
+	@git commit -a -m `date +%Y%m%dT%H%M%SZ`
 
 git-push:
 	git push --set-upstream origin main
