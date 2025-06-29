@@ -11,6 +11,7 @@ remote_origin_remove:
 
 remote_oritin_add:
 	git remote add origin ${GIT_REPO}
+	#git remote add origin git@github.com:scetayh/mirrors.sdick.tarikkochan.github.io.git
 
 push:
 	git push --set-upstream origin main
