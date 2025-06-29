@@ -1,6 +1,6 @@
 export ROOT = docs/
 export SDICK_REPO_SOURCES = /Users/scetayh/repo/sdick.tarikkochan.github.io/source/
-CNAME = mirrors.sdick.tarikkochan.top
+CNAME = mirrors.tarikkochan.top
 export GIT_REPO = git@github.com:scetayh/mirrors.sdick.tarikkochan.github.io.git
 SERVER_PORT = 20943
 
