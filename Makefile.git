@@ -1,0 +1,16 @@
+.PHONY: add commit remote_origin_remove remote_origin_add push
+
+add:
+	git add .
+	
+commit:
+	git commit -a -m "`date`"
+
+remote_origin_remove:
+	git remote remove origin
+
+remote_oritin_add:
+	git remote add origin ${GIT_REPO}
+
+push:
+	git push --set-upstream origin main

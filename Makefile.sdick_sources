@@ -1,0 +1,14 @@
+.PHONY: clean cp data_rename posts_rename
+
+clean:
+	rm -rf ${ROOT}/sdick-sources/*
+	mkdir -p ${ROOT}/sdick-sources
+
+cp:
+	cp -r ${SDICK_REPO_SOURCES}/* ${ROOT}/sdick-sources/
+
+data_rename:
+	mv ${ROOT}/sdick-sources/_data ${ROOT}/sdick-sources/data
+
+posts_rename:
+	mv ${ROOT}/sdick-sources/_posts ${ROOT}/sdick-sources/posts

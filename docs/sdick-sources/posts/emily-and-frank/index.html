@@ -1,0 +1,72 @@
+
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>斯迪克镜像站 - sdick-sources/posts/emily-and-frank</title>
+        <link rel="stylesheet" href="/_assets/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script>
+            // 页面初始化时加载的数据
+            const directoryData = {
+                path: "sdick-sources/posts/emily-and-frank",
+                items: [{"name": "IMG_4890.jpeg", "path": "./IMG_4890.jpeg", "is_dir": false, "size": 2255764, "size_human": "2.2 MB", "modified": "2025-06-29 16:53", "modified_ts": 1751187215.5683646, "icon": "fas fa-file", "type": "file"}, {"name": "IMG_4891.jpeg", "path": "./IMG_4891.jpeg", "is_dir": false, "size": 2523224, "size_human": "2.4 MB", "modified": "2025-06-29 16:53", "modified_ts": 1751187215.571104, "icon": "fas fa-file", "type": "file"}],
+                sortField: localStorage.getItem('sortField') || 'name',
+                sortOrder: localStorage.getItem('sortOrder') || 'asc'
+            };
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>斯迪克镜像站</h1>
+            <div class="breadcrumbs">
+                <a href="/">首页</a>
+                <a href="//sdick-sources/">sdick-sources</a> / <a href="//sdick-sources/posts/">posts</a>
+                emily-and-frank
+            </div>
+        </header>
+        
+        <main>
+            <div class="controls">
+                <div class="sorting">
+                    <label>排序方式:</label>
+                    <select id="sortField">
+                        <option value="name">名称</option>
+                        <option value="modified">修改日期</option>
+                        <option value="size">大小</option>
+                        <option value="type">类型</option>
+                    </select>
+                    <select id="sortOrder">
+                        <option value="asc">升序</option>
+                        <option value="desc">降序</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <input type="text" id="searchInput" placeholder="搜索文件...">
+                </div>
+            </div>
+            
+            <table id="fileTable">
+                <thead>
+                    <tr>
+                        <th>名称</th>
+                        <th>修改日期</th>
+                        <th>大小</th>
+                        <th>类型</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 内容由JavaScript动态生成 -->
+                </tbody>
+            </table>
+        </main>
+        
+        <footer>
+            <p>Pseudo Mirror Station of Sdick &copy; 2025</p>
+        </footer>
+        
+        <script src="/_assets/script.js"></script>
+    </body>
+    </html>
+    
