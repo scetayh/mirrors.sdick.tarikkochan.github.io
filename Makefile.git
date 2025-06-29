@@ -9,7 +9,7 @@ commit:
 remote_origin_remove:
 	-git remote remove origin
 
-remote_oritin_add:
+remote_origin_add:
 	git remote add origin ${GIT_REPO}
 	#git remote add origin git@github.com:scetayh/mirrors.sdick.tarikkochan.github.io.git
 
