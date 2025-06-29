@@ -34,8 +34,6 @@ type:
 
 ![读后续写](/img/category/rewriting/rewriting.jpeg)
 
-![](1.jpeg)
-
 ![](IMG_5444.jpeg)
 
 ![](IMG_5445.jpeg)

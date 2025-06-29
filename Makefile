@@ -1,3 +1,4 @@
+SOURCE_SITE_ROOT = docs/
 SDICK_SITE_REPO_SOURCE = ../sdick.tarikkochan.github.io/source/
 
 .PHONY: deploy clean copy git-commit git-push git
@@ -8,11 +9,11 @@ deploy:
 	make git
 
 clean:
-	rm -rf source/*
+	rm -rf ${SOURCE_SITE_ROOT}/*
 
 copy:
-	mkdir -p source/
-	cp -R ${SDICK_SITE_REPO_SOURCE}/* source/
+	mkdir -p ${SOURCE_SITE_ROOT}/
+	cp -R ${SDICK_SITE_REPO_SOURCE}/* ${SOURCE_SITE_ROOT}/
 
 git-commit:
 	git add .
